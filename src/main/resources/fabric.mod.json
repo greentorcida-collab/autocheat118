@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "autocheat",
+  "version": "${version}",
+  "name": "Auto Cheat",
+  "description": "Menyalakan cheat otomatis di world singleplayer, termasuk hardcore.",
+  "environment": "*",
+  "entrypoints": { "main": ["com.autocheat.AutoCheat"] },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "~1.18.2",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
